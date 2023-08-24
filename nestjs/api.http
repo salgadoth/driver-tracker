@@ -1,0 +1,19 @@
+GET http://localhost:3000/routes
+
+###
+POST http://localhost:3000/routes/
+Content-Type: application/json
+
+{
+    "name": "route test 1",
+    "source_id": "ChIJS6H15wWGmQAR7rzh5qlWI30",
+    "destination_id": "ChIJK0Yer7WDmQARx0wAA78C-wI"
+}
+
+### Coisas do mapa
+
+### Pegar o place_id
+GET http://localhost:3000/places?text=rua paulo gustavo, niteroi
+
+### Pegar direções entre 2 pontos
+GET http://localhost:3000/directions?originId=ChIJS6H15wWGmQAR7rzh5qlWI30&destinationId=ChIJK0Yer7WDmQARx0wAA78C-wI

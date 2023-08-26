@@ -1,2 +1,3 @@
 # docker volume
-.docker/
+.docker/grafana_data
+.docker/mysql

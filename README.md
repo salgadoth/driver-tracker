@@ -1,6 +1,7 @@
 # driver-tracker
 Project developed for tracking delivery drivers and their routes.
 <br/>
+<br/>
 Technologies used: <br/>
 - Nestjs (back-end) <br/>
 - MongoDB and MySQL <br/>
